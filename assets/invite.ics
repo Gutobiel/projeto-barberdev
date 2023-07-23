@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:E. South America Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Vanessa Kelly da Costa Silva:mailto:vanessa.costa@dataeasy.com
+ .br
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gutobielsa
+ ntos@gmail.com:mailto:gutobielsantos@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Eduardo de
+  Souza e Silva:mailto:eduardo.silva@dataeasy.com.br
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Roberto To
+ mio Inoue:mailto:roberto.inoue@dataeasy.com.br
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=André Lui
+ z de Souza:mailto:andre.souza@dataeasy.com.br
+DESCRIPTION;LANGUAGE=pt-BR:\n______________________________________________
+ __________________________________\nReunião do Microsoft Teams\nIngressar
+  no seu computador\, aplicativo móvel ou dispositivo de sala\nClique para
+  ingressar na reunião<https://teams.microsoft.com/l/meetup-join/19%3ameet
+ ing_ZDAwMzE3YzItOTY1Zi00MTMxLWFlY2UtYjRhYTdiMzQwNDZj%40thread.v2/0?context
+ =%7b%22Tid%22%3a%227cb93536-4736-4444-8db4-9c91168784ee%22%2c%22Oid%22%3a%
+ 22f0ecf1de-18e6-4d24-9fa7-27133aa5a528%22%7d>\nID da Reunião: 211 454 393
+  441\nSenha: g5wfBU\nBaixar o Teams<https://www.microsoft.com/en-us/micros
+ oft-teams/download-app> | Participe na web<https://www.microsoft.com/micro
+ soft-teams/join-a-meeting>\nSaiba mais<https://aka.ms/JoinTeamsMeeting> | 
+ Opções de reunião<https://teams.microsoft.com/meetingOptions/?organizer
+ Id=f0ecf1de-18e6-4d24-9fa7-27133aa5a528&tenantId=7cb93536-4736-4444-8db4-9
+ c91168784ee&threadId=19_meeting_ZDAwMzE3YzItOTY1Zi00MTMxLWFlY2UtYjRhYTdiMz
+ QwNDZj@thread.v2&messageId=0&language=pt-BR>\n____________________________
+ ____________________________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000635C5E37ECB3D901000000000000000
+ 010000000A4A7F229E741624EBF4EC46C8399D7AC
+SUMMARY;LANGUAGE=pt-BR:Entrevista Estágio Augusto
+DTSTART;TZID=E. South America Standard Time:20230713T150000
+DTEND;TZID=E. South America Standard Time:20230713T153000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230711T113833Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=pt-BR:Reuniões do Microsoft Teams
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2121750883
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZDAwMzE3YzItOTY1Zi00MTMxLWFlY2UtYjRhYTdiMzQwNDZj%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%227cb93536-4736-4444-8db4-9c91168784ee%22%2c%22O
+ id%22%3a%22f0ecf1de-18e6-4d24-9fa7-27133aa5a528%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/7cb93536-4736-4444-8db4-9c91168784ee/f0ecf1de-18e6-4d24-9fa7-2
+ 7133aa5a528/19_meeting_ZDAwMzE3YzItOTY1Zi00MTMxLWFlY2UtYjRhYTdiMzQwNDZj@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZDAwMzE3YzItOTY1Zi00MTM
+ xLWFlY2UtYjRhYTdiMzQwNDZj@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Reuniões do Microsoft Teams
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Reuniões do Microsoft Teams"\,"Loca
+ tionAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":
+ ""\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Lo
+ cationFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
